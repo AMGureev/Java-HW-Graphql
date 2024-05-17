@@ -9,13 +9,8 @@ public class InMemoryTaskService implements TaskService{
     private final List<TaskEntity> tasks = new LinkedList<>();
 
     @Override
-    public Iterable<TaskEntity> returnTasks(int count, int offset) {
-        List<TaskEntity> result = new ArrayList<>();
-        int size = tasks.size();
-        for (int i = offset; i < size && result.size() < count; i++) {
-            result.add(tasks.get(i));
-        }
-        return result;
+    public Iterable<TaskEntity> returnTasks() {
+        return tasks;
     }
 
     @Override
