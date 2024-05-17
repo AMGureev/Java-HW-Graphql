@@ -1,4 +1,4 @@
-package com.guryasha.graphqlhw.dao;
+package com.guryasha.graphqlhw.entity;
 
 public class TaskEntity {
     private int id;

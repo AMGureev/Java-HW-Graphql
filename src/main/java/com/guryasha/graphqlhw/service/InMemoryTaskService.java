@@ -1,5 +1,5 @@
 package com.guryasha.graphqlhw.service;
-import com.guryasha.graphqlhw.dao.TaskEntity;
+import com.guryasha.graphqlhw.entity.TaskEntity;
 import org.springframework.stereotype.Service;
 
 import java.util.*;

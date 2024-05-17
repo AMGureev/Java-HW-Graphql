@@ -1,6 +1,6 @@
 package com.guryasha.graphqlhw.controller;
 
-import com.guryasha.graphqlhw.dao.TaskEntity;
+import com.guryasha.graphqlhw.entity.TaskEntity;
 import com.guryasha.graphqlhw.service.TaskService;
 import org.springframework.graphql.data.method.annotation.Argument;
 import org.springframework.graphql.data.method.annotation.QueryMapping;
